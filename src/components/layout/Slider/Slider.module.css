@@ -1,0 +1,72 @@
+.Slider
+{
+    background: white;
+    padding:10px;
+    padding-bottom: 40px;
+}
+.header
+{
+display: grid;
+grid-template-columns: auto auto;
+}
+.headerText
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+color: #212523;
+display:grid;
+justify-content: left;
+}
+.headerIcon
+{
+    justify-content: right;
+    display: grid;
+
+}
+.breadcrum
+{ font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #BCC1CD;
+    padding: 20px 0px;
+
+}   
+
+.subsjectsSlide
+{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1rem;
+}
+
+@media only screen and (max-width: 991px){
+    .subsjectsSlide  {
+        flex-wrap: wrap;
+    }}
+.seemore
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.seemoreText>a
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+color: #0997D9;
+text-decoration: none;
+
+}
+.rightangle
+{
+    font-weight: 500;
+font-size: 20px;
+color: black;
+
+}
+

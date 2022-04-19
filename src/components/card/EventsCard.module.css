@@ -1,0 +1,113 @@
+.eventsCard
+{
+
+    height: 137px;
+    display: flex;
+    flex-direction: row;
+position: relative;
+background: linear-gradient(180deg, #4DC591 0%, rgba(77, 197, 145, 0) 100%),
+ url(../../assets/Green-vector.svg) no-repeat top right;
+border: 0.3px solid #00664F;
+box-sizing: border-box;
+border-radius: 16px;
+margin-bottom:10px;
+}
+
+.eventsCard::after{
+    content:":";
+    color:white;
+    top: 10px;
+    position: absolute;
+    right: 10px;
+    font-weight: bold;  
+    cursor: pointer;
+}
+.eventDetails
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+padding: 10px;
+}
+.eventsubject
+{
+    font-weight: 600;
+    font-size: 16px;    
+    color: #FFFFFF;
+}
+.eventactivity
+{
+    font-weight: 500;
+    font-size: 12px;
+color: #000000;
+}
+.eventtime,.eventuser {
+display: flex;
+flex-direction: row;
+column-gap: 1rem;
+align-items: center;
+}
+.clockicon,.locationIcon{
+    width: 16px;
+    height: 16px;
+}
+.time,.location
+{
+    font-weight: 400;
+    font-size: 12px; 
+    color: #040706;
+}
+.green .time  p, .green .location p
+
+{
+    color: #073F23;
+}
+
+.purple .time p, .purple .location p
+
+{
+    
+color: #182A88;
+}
+
+.yellow .time p, .yellow .location p, .yellow .locationIcon img
+
+{
+    color: #CE6262;
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+.avatar
+{
+    width: 16px;
+    height: 16px;
+}
+.name{
+    font-weight: 400;
+    font-size: 12px; 
+    color: #073F23;
+}
+
+.green
+{
+    background: linear-gradient(180deg, #4DC591 0%, rgba(77, 197, 145, 0) 100%),
+ url(../../assets/Green-vector.svg) no-repeat top right;
+ border: 0.3px solid #00664F;
+}
+
+.purple
+
+{
+    background: linear-gradient(180deg, #8F98FF 0%, rgba(127, 127, 213, 0) 100%),
+    url(../../assets/Pink-vector.svg) no-repeat top right;
+    border: 0.3px solid #8F98FF;
+   
+}
+
+.yellow
+{
+    background:  linear-gradient(180deg, #F39034 0%, rgba(243, 144, 52, 0) 100%),
+    url(../../assets/Yellow-vector.svg) no-repeat top right;
+    border: 0.3px solid #FFC278;
+}

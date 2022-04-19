@@ -1,0 +1,109 @@
+.eventBar 
+{
+display: flex;
+flex-direction: column;
+background-color: #ffff;
+z-index: 1029;
+position: relative;
+border: 1px solid #EBEBEB;
+box-sizing: border-box;
+color: #ffff;
+padding: 0px 10px;
+margin: 0px 20px;
+}
+
+@media screen and (min-width: 992px){
+    .eventBar  {
+        position:fixed;
+        z-index:1;
+        top: 0;
+right: 0;
+bottom: 0;
+width: 340px;
+margin: 0px ;
+
+    }
+ 
+    }
+
+.header 
+{
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 70px;
+  align-items: center;
+}
+.headerText
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+display: flex;
+align-items: center;
+color: #4F4F4F;
+}
+.headerIcon
+{
+    display: flex;
+align-items: flex-end;
+}
+.headerIcon>a
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+    color: #6C6C64;
+}
+.eventtabs 
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+border-bottom:1px solid #4F4F4F;
+}
+.activites 
+{
+    color:black;
+    cursor: pointer;
+}
+.reminders 
+{
+    color: #979797;
+    cursor: pointer;
+    
+}
+.lastDay
+{
+    font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+border-top:1px solid #4F4F4F;
+padding-left: 80px;
+}
+.eventbody
+{
+    padding:20px 0px;
+}
+.seeAll>a
+{
+font-size: 15px;
+line-height: 22px;
+color: #0997D9;
+display: flex;
+justify-content: flex-end;
+}
+.card
+{
+margin-bottom: 10px;
+}
+
